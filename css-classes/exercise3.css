@@ -1,0 +1,15 @@
+/* Apply box-sizing and padding to all divs */
+div {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Header */
+#header {
+    background: #FF9C56;
+}
+
+/* Footer */
+#footer {
+    background: #FF4D79;
+}
