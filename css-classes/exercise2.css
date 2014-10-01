@@ -5,11 +5,42 @@ div {
 }
 
 /* Header */
-#header {
+.header {
     background: #FF9C56;
+    height: 100px;
+    overflow: auto;
+}
+
+/* Logo */
+
+.logo {
+  background: red;
+  float: left;
+}
+
+/* Navigation */
+
+.navigation {
+  background: pink;
+  float: right;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #99FF66;
+    float: left;
+    height: 300px;
+}
+
+/* Content */
+.content {
+    background: #9900FF;
+    height: 300px;
 }
 
 /* Footer */
-#footer {
+.footer {
     background: #FF4D79;
+    clear: both;
+    height: 100px;
 }
