@@ -5,11 +5,34 @@ div {
 }
 
 /* Header */
-#header {
+.header {
     background: #FF9C56;
 }
 
+/* content */
+.content {
+  background: yellow;
+  overflow: auto;
+}
+/* widget */
+.widget, .gadget {
+    float: left;
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+.sub-widget {
+  background: pink;
+}
+
+.blue {
+  background: blue;
+}
+
 /* Footer */
-#footer {
+.footer {
+    clear: both;
     background: #FF4D79;
 }

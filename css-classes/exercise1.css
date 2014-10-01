@@ -5,22 +5,27 @@ div {
 }
 
 /* Header */
-#header {
+.header {
     background: #FF9C56;
+    height: 100px;
 }
 
 /* Sidebar */
-#sidebar {
+.sidebar {
     background: #99FF66;
     float: left;
+    height: 300px;
 }
 
 /* Content */
-#content {
+.content {
     background: #9900FF;
+    height: 300px;
 }
 
 /* Footer */
-#footer {
+.footer {
     background: #FF4D79;
+    clear: both;
+    height: 100px;
 }
