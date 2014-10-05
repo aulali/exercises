@@ -1,0 +1,33 @@
+button {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    width: 15em;
+    height: 15em;
+    font-size: 1em;
+}
+
+.container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rock {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+#paper {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+#scissors {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+#decision {
+    font-size: 10em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
