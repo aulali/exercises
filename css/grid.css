@@ -1,0 +1,31 @@
+div {
+    box-sizing: border-box;
+  }
+.container {
+  background: blue;
+  overflow: auto;
+}
+.column {
+  border: 1px solid white;
+  padding: 1px;
+  height: 80px;
+  float: left;
+ }
+ .row {
+   width: 100%;
+ }
+.full {
+  width: 100%;
+}
+.two-thirds {
+  width: 66%;
+}
+.half {
+  width: 50%;
+}
+.third {
+  width: 30%;
+}
+.fourth {
+  width: 25%;
+}
